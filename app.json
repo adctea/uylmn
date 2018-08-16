@@ -1,0 +1,13 @@
+{
+	"name": "uylmn",
+	"description": "client for node.js with web ui.",
+	"repository":  "https://github.com/adctea/uylmn",
+  "buildpacks" : [
+		{
+			"url" : https://github.com/meenie/heroku-buildpack-nodejs-grunt-bower"
+		},
+    {
+      "url" : "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+	]
+}
